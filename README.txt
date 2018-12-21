@@ -1,3 +1,7 @@
+This program is a simulation in which a number of threads access a group of
+shared buffers for both reading and writing purposes. Initially this will be done without the benefit of
+synchronization tools ( semaphores ) to illustrate the problems of race conditions, and then with the
+synchronization tools to solve the problems. 
 
 To run the program:
 1. type in "make"
